@@ -6,18 +6,23 @@
 
 
 body{
-    background-image: linear-gradient(rgb(92,100,221), rgb(109,39,200));
+    background-image: linear-gradient(rgb(92,100,221), #FBFEF9);
     background-repeat: no-repeat;
 }
 
 .container{
-    background-color: white;
+    max-width: 955px;
+    background-image: linear-gradient(#F39237, #ffffff);
     width: 400px;
     height: 500px;
     margin: auto;
     margin-top: 100px;
     border-radius: 10px;
     box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    padding: 30px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+
 }
 
 .message {
@@ -51,3 +56,30 @@ body{
     margin-top: 20px;
     clear:both;
 }
+
+#send-container{
+    text-align: center;
+    max-width: 985px;
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+#messageInp{
+   width: 35%;
+   border: 1px solid grey;
+   border-radius: 5px;
+   height: 34px;
+}
+
+.btn{
+    background-color: #F39237;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    height: 5vh;
+}
+    
